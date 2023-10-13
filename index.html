@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="X-icon" href="imageDGSjhjh.jpg.jpg">
+    <link rel="shortcut icon" type="X-icon" href="file:///C:/Users/Dell/Desktop/imageDGSjhjh.jpg">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I  E  X  O</title>
@@ -164,7 +164,64 @@
             
         </style>
     </head>
-    <button onclick="location.href='https://x.com/talafha_mohamma?t=iuV3H_SXLH5l_2DgonfQEQ&s=08'"><i class="fa-brands fa-twitter"></i></button>
+    <button onclick="location.href='https://twitter.com/WTalafha4918'"><i class="fa-brands fa-twitter"></i></button>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Hide the link and provide styling to the copy button */
+        #linkToCopy {
+            display: none;
+        }
+        #copyButton {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: #000000; /* Change to your preferred color */
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://i-exo.github.io/IEXO/" id="linkToCopy">https://i-exo.github.io/IEXO/</a>
+
+    <button id="copyButton" title="Copy Link"><i class="fa-solid fa-share"></i></button>
+
+    <script>
+        // Function to copy a link to the clipboard
+        function copyLinkToClipboard() {
+            // Create a temporary input element to copy the link
+            var tempInput = document.createElement("input");
+            tempInput.value = "https://www.example.com"; // Replace with your actual link
+
+            // Append the temporary input element to the document
+            document.body.appendChild(tempInput);
+
+            // Select the text in the temporary input element
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the selected text to the clipboard
+            document.execCommand("copy");
+
+            // Remove the temporary input element
+            document.body.removeChild(tempInput);
+
+            // Change the icon to indicate a successful copy
+            var copyButton = document.getElementById("copyButton");
+            copyButton.innerHTML = '<i class="fas fa-check"></i>';
+
+            // Reset the icon after a short delay
+            setTimeout(function() {
+                copyButton.innerHTML = '<i class="fa-solid fa-share"></i>';
+            }, 2000);
+        }
+
+        // Add a click event listener to the copy button
+        var copyButton = document.getElementById("copyButton");
+        copyButton.addEventListener("click", copyLinkToClipboard);
+    </script>
+</body>
 
     <main>
         <section>
