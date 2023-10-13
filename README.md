@@ -1,2 +1,2 @@
-# iexo.github.io
+# IEXO
 Great repository names are short and memorable. Need inspiration? How about 
